@@ -24,6 +24,7 @@ cp docker-systemctl-replacement-1.5.4260/files/docker/systemctl.py /usr/bin/syst
 
 cd alogservice/logservice/SOURCES
 tar -cvhf ~/rpmbuild/SOURCES/logservice-1.0.tar.bz2 logservice-1.0
+# note the tar options, including '-h' which de-references symbolic links
 
 cd /github/workspace
 pwd
